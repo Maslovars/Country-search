@@ -1,4 +1,4 @@
-import type { SearchErrorKind } from '../types/country';
+import type { SearchErrorKind } from '../../src/types/country';
 
 export function classifySearchError(_error: unknown): SearchErrorKind {
   return 'network';

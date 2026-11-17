@@ -1,4 +1,4 @@
-import type { Country, SearchState } from '../../types/country';
+import type { Country, SearchState } from '../../src/types/country';
 
 interface Options {
   onStateChange: (state: SearchState) => void;
